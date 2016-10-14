@@ -1,0 +1,164 @@
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% LaTeX Thesis Template defined by Torsten Schön, May 2013
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[letterpaper,11pt,twoside,openright]{report}
+
+% define marging document
+\usepackage[letterpaper,left=3cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+
+% define font arial
+\usepackage{helvet}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+% define spanish language and table name
+\usepackage[spanish,es-tabla]{babel}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage[T1]{fontenc}
+
+% import graphics
+\usepackage{graphicx}
+
+\graphicspath{{fig/}}
+
+% custom month, year on Title
+\usepackage{datetime}
+
+\newdateformat{monthYear}{\monthname[\THEMONTH], \THEYEAR}
+
+\makeatletter
+\renewcommand{\monthnamespanish}[1][\month]{%
+  \@orgargctr=#1\relax
+  \ifcase\@orgargctr
+    \PackageError{datetime}{Invalid Month number \the\@orgargctr}{%
+      Month numbers should go from 1 to 12}%
+    \or Enero%
+    \or Febrero%
+    \or Marzo%
+    \or Abril%
+    \or Mayo%
+    \or Junio%
+    \or Julio%
+    \or Agosto%
+    \or Septiembre%
+    \or Octubre%
+    \or Noviembre%
+    \or Diciembre%
+    \else \PackageError{datetime}{Invalid Month number \the\@orgargctr}{%
+      Month numbers should go from 1 to 12}%
+  \fi}
+\makeatother
+
+% caption into figure
+\usepackage{caption}
+
+\usepackage[font=small,skip=0pt]{caption}
+
+% space between bleeding
+\setlength{\parindent}{0em}
+
+% style for cite
+\usepackage[autostyle]{csquotes}
+
+% generate link from tableofcontents
+\usepackage[
+	colorlinks,
+	citecolor=black,
+	linkcolor=black,
+	urlcolor=black
+]{hyperref}
+
+\usepackage[numbered,open]{bookmark}[2011/12/02]
+
+% style bibliography
+\usepackage{apacite}
+\bibliographystyle{apacite}
+
+% renew reference to bibliography
+\renewcommand{\bibname}{Bibliografía}
+\AtBeginDocument{\renewcommand{\bibname}{Bibliografía}}
+
+% align text justify
+\usepackage{ragged2e}
+
+% degine source image
+\newcommand{\source}[1]{\ttfamily #1}
+
+% add code laguage programming
+\usepackage{xcolor}
+\usepackage{listings}
+
+\lstset{
+	language=PHP, 
+	commentstyle = \color{gray},
+	extendedchars = \true,
+	keepspaces = true,
+	keywordstyle = \bfseries,
+	morekeywords = {function, return},
+	numbers = left,
+	captionpos = b,
+	showspaces = false,
+	showstringspaces = false,
+	showtabs = false,
+	basicstyle = \footnotesize,	
+}
+
+% enumerate number item in list.
+\usepackage{enumerate}
+
+% define label caption listing
+\renewcommand{\lstlistingname}{Segmento de código}
+
+% rename list of listing
+\renewcommand{\lstlistlistingname}{Índice para segmentos de código}
+
+% landscape table
+\usepackage{lscape}
+
+% space after textquotedblright
+\newcommand*{\textquotedouble}[1]{\textquotedblleft #1\textquotedblright}
+
+% space bebind textgreater
+\usepackage{xspace}
+
+\let\OldTextGreater\textgreater
+
+%reformatting the chapter headings for bookmark
+\usepackage{titlesec} 
+
+\makeatletter
+
+% verify in appendix
+\newcommand{\inappendix}{TT\fi\expandafter\ifx\@chapapp\appendixname}
+
+% Define name of caption and list of lot
+\renewcommand{\listtablename}{Índice de tablas}
+\renewcommand{\tablename}{Tabla}
+
+% force figure and table keep locate
+\usepackage{float}
+
+% autor
+\author{Juan Omar Huanca Balboa}
+
+\begin{document}
+
+\newcounter{rom}
+
+\justifying
+\noindent
+
+% begin numeration for ordinal number
+\cleardoublepage
+
+\pagenumbering{arabic}
+
+\tableofcontents
+
+\input{User}
+
+\end{document}
