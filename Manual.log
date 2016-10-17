@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.9.2)  15 OCT 2016 14:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.9.2)  16 OCT 2016 23:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -812,7 +812,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write3
 \openout3 = `Manual.toc'.
 
- (./Install.tex
+ (./User.tex
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 1.
 Package babel Info: Redefining spanish shorthand >>
@@ -842,33 +842,6 @@ Package babel Info: Redefining spanish shorthand "?
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 1.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 1.
- [2
-
-]
 Cap\'{\i }tulo 1.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 1.
@@ -885,175 +858,1014 @@ Package babel Info: Redefining spanish shorthand "?
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 7.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 3.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 7.
+(babel)             in language  on input line 3.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 7.
+(babel)             in language  on input line 3.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 7.
+(babel)             in language  on input line 3.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 7.
+(babel)             in language  on input line 3.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 7.
+(babel)             in language  on input line 3.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 7.
+(babel)             in language  on input line 3.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 24.
+(babel)             in language  on input line 31.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 24.
+(babel)             in language  on input line 31.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 24.
+(babel)             in language  on input line 31.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 24.
+(babel)             in language  on input line 31.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 24.
+(babel)             in language  on input line 31.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 24.
+(babel)             in language  on input line 31.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 34.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 34.
+<fig/linkRegister.png, id=65, 306.39468pt x 47.42719pt>
+File: fig/linkRegister.png Graphic file (type png)
+
+<use fig/linkRegister.png>
+Package pdftex.def Info: fig/linkRegister.png used on input line 42.
+(pdftex.def)             Requested size: 153.19696pt x 23.71353pt.
+
+<fig/userRegister.png, id=66, 858.20625pt x 479.54156pt>
+File: fig/userRegister.png Graphic file (type png)
+
+<use fig/userRegister.png>
+Package pdftex.def Info: fig/userRegister.png used on input line 52.
+(pdftex.def)             Requested size: 429.10208pt x 239.77019pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 54.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 54.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 54.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 54.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 54.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 54.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 54.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 54.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 54.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 54.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 54.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 54.
+ [2
+
+ <./fig/linkRegister.png (PNG copy)>]
+<fig/successRegister.png, id=73, 573.64313pt x 51.19125pt>
+File: fig/successRegister.png Graphic file (type png)
+
+<use fig/successRegister.png>
+Package pdftex.def Info: fig/successRegister.png used on input line 63.
+(pdftex.def)             Requested size: 401.54745pt x 35.83362pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 66.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 66.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 66.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 66.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 66.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 66.
+
+<fig/linkLogin.png, id=75, 306.39468pt x 47.42719pt>
+File: fig/linkLogin.png Graphic file (type png)
+ <use fig/linkLogin.png>
+Package pdftex.def Info: fig/linkLogin.png used on input line 75.
+(pdftex.def)             Requested size: 153.19696pt x 23.71353pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 78.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 78.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 78.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 78.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 78.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 78.
+
+<fig/formLogin.png, id=77, 640.64343pt x 275.52937pt>
+File: fig/formLogin.png Graphic file (type png)
+ <use fig/formLogin.png>
+Package pdftex.def Info: fig/formLogin.png used on input line 89.
+(pdftex.def)             Requested size: 320.32092pt x 137.76434pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 91.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 91.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 91.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 91.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 91.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 91.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 91.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 91.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 91.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 91.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 91.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 91.
+
+[3 <./fig/userRegister.png (PNG copy)> <./fig/successRegister.png (PNG copy)> <
+./fig/linkLogin.png (PNG copy)>]
+<fig/linkProfile.png, id=86, 207.77625pt x 109.1578pt>
+File: fig/linkProfile.png Graphic file (type png)
+
+<use fig/linkProfile.png>
+Package pdftex.def Info: fig/linkProfile.png used on input line 99.
+(pdftex.def)             Requested size: 103.88786pt x 54.57877pt.
+
+<fig/viewProfile.png, id=87, 530.73282pt x 193.47281pt>
+File: fig/viewProfile.png Graphic file (type png)
+
+<use fig/viewProfile.png>
+Package pdftex.def Info: fig/viewProfile.png used on input line 110.
+(pdftex.def)             Requested size: 265.36575pt x 96.73616pt.
+
+<fig/formUpdateUser.png, id=89, 484.81125pt x 459.21562pt>
+File: fig/formUpdateUser.png Graphic file (type png)
+
+<use fig/formUpdateUser.png>
+Package pdftex.def Info: fig/formUpdateUser.png used on input line 122.
+(pdftex.def)             Requested size: 242.40503pt x 229.60724pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 124.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 124.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 124.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 124.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 124.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 124.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 124.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 124.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 124.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 124.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 124.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 124.
+ [4 <./fig/formLogin.png (PNG copy)> <./fig/linkProfile.png (PNG copy)> <./fig/
+viewProfile.png (PNG copy)>]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 125.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 125.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 125.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 125.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 125.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 125.
+
+<fig/linkRecoveryPassword.png, id=98, 639.89063pt x 274.02374pt>
+File: fig/linkRecoveryPassword.png Graphic file (type png)
+
+<use fig/linkRecoveryPassword.png>
+Package pdftex.def Info: fig/linkRecoveryPassword.png used on input line 135.
+(pdftex.def)             Requested size: 319.94452pt x 137.01154pt.
+
+<fig/formRecoveryPassword.png, id=99, 856.70062pt x 264.23718pt>
+File: fig/formRecoveryPassword.png Graphic file (type png)
+
+<use fig/formRecoveryPassword.png>
+Package pdftex.def Info: fig/formRecoveryPassword.png used on input line 145.
+(pdftex.def)             Requested size: 428.34926pt x 132.11826pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 147.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 147.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 147.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 147.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 147.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 147.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 147.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 147.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 147.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 147.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 147.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 147.
+ [5 <./fig/formUpdateUser.png (PNG copy)> <./fig/linkRecoveryPassword.png (PNG 
+copy)>]
+<fig/successSentRecoveryPassword.png, id=106, 740.7675pt x 51.94406pt>
+File: fig/successSentRecoveryPassword.png Graphic file (type png)
+
+<use fig/successSentRecoveryPassword.png>
+Package pdftex.def Info: fig/successSentRecoveryPassword.png used on input line
+ 155.
+(pdftex.def)             Requested size: 370.38284pt x 25.97195pt.
+
+<fig/formChangePassword.png, id=107, 666.23906pt x 222.8325pt>
+File: fig/formChangePassword.png Graphic file (type png)
+
+<use fig/formChangePassword.png>
+Package pdftex.def Info: fig/formChangePassword.png used on input line 166.
+(pdftex.def)             Requested size: 333.11871pt x 111.41597pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 170.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 170.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 170.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 170.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 170.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 170.
+
+<fig/linkManageUser.png, id=110, 185.19188pt x 153.57375pt>
+File: fig/linkManageUser.png Graphic file (type png)
+
+<use fig/linkManageUser.png>
+Package pdftex.def Info: fig/linkManageUser.png used on input line 182.
+(pdftex.def)             Requested size: 92.5957pt x 76.78668pt.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 41.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 185.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 41.
+(babel)             in language  on input line 185.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 41.
+(babel)             in language  on input line 185.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 41.
+(babel)             in language  on input line 185.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 41.
+(babel)             in language  on input line 185.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 41.
+(babel)             in language  on input line 185.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 41.
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 45.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 46.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 46.
+(babel)             in language  on input line 185.
 
-<fig/passwordMySQLServer.png, id=28, 510.40688pt x 170.88844pt>
-File: fig/passwordMySQLServer.png Graphic file (type png)
+<fig/linkUpdateProfileSelf.jpg, id=112, 814.54312pt x 106.14656pt>
+File: fig/linkUpdateProfileSelf.jpg Graphic file (type jpg)
 
-<use fig/passwordMySQLServer.png>
-Package pdftex.def Info: fig/passwordMySQLServer.png used on input line 57.
-(pdftex.def)             Requested size: 255.2028pt x 85.444pt.
+<use fig/linkUpdateProfileSelf.jpg>
+Package pdftex.def Info: fig/linkUpdateProfileSelf.jpg used on input line 195.
+(pdftex.def)             Requested size: 407.27055pt x 53.07315pt.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 196.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 196.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 196.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 196.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 196.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 196.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 196.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 196.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 196.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 196.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 196.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 196.
+ [6 <./fig/formRecoveryPassword.png (PNG copy)> <./fig/successSentRecoveryPassw
+ord.png (PNG copy)> <./fig/formChangePassword.png (PNG copy)> <./fig/linkManage
+User.png (PNG copy)>]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 198.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 198.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 198.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 198.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 198.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 66.
- [3]
-<fig/verifyApacheBrowser.png, id=37, 554.07pt x 216.81pt>
-File: fig/verifyApacheBrowser.png Graphic file (type png)
-
-<use fig/verifyApacheBrowser.png>
-Package pdftex.def Info: fig/verifyApacheBrowser.png used on input line 75.
-(pdftex.def)             Requested size: 277.03432pt x 108.40472pt.
+(babel)             in language  on input line 198.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 79.
+(babel)             in language  on input line 201.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 79.
+(babel)             in language  on input line 201.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 79.
+(babel)             in language  on input line 201.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 79.
+(babel)             in language  on input line 201.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 79.
+(babel)             in language  on input line 201.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 79.
+(babel)             in language  on input line 201.
 
-<fig/chooseApachePhpMyAdmin.png, id=38, 528.47438pt x 171.64125pt>
-File: fig/chooseApachePhpMyAdmin.png Graphic file (type png)
+<fig/addRolCoordinator.png, id=122, 452.4403pt x 167.12437pt>
+File: fig/addRolCoordinator.png Graphic file (type png)
 
-<use fig/chooseApachePhpMyAdmin.png>
-Package pdftex.def Info: fig/chooseApachePhpMyAdmin.png used on input line 96.
-(pdftex.def)             Requested size: 264.23654pt x 85.8204pt.
-
-<fig/formPasswordPhpMyAdmin.png, id=40, 523.9575pt x 144.54pt>
-File: fig/formPasswordPhpMyAdmin.png Graphic file (type png)
-
-<use fig/formPasswordPhpMyAdmin.png>
-Package pdftex.def Info: fig/formPasswordPhpMyAdmin.png used on input line 106.
-
-(pdftex.def)             Requested size: 261.9781pt x 72.2698pt.
+<use fig/addRolCoordinator.png>
+Package pdftex.def Info: fig/addRolCoordinator.png used on input line 211.
+(pdftex.def)             Requested size: 226.2196pt x 83.56197pt.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 108.
+(babel)             in language  on input line 214.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 108.
+(babel)             in language  on input line 214.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 108.
+(babel)             in language  on input line 214.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 108.
+(babel)             in language  on input line 214.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 108.
+(babel)             in language  on input line 214.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 108.
+(babel)             in language  on input line 214.
+
+<fig/removeRolCoordinator.png, id=124, 297.36093pt x 139.27031pt>
+File: fig/removeRolCoordinator.png Graphic file (type png)
+
+<use fig/removeRolCoordinator.png>
+Package pdftex.def Info: fig/removeRolCoordinator.png used on input line 224.
+(pdftex.def)             Requested size: 148.6801pt x 69.63498pt.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 108.
+(babel)             in language  on input line 228.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 108.
+(babel)             in language  on input line 228.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 108.
+(babel)             in language  on input line 228.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 108.
+(babel)             in language  on input line 228.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 108.
+(babel)             in language  on input line 228.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 108.
- [4 <./fig/passwordMySQLServer.png (PNG copy)> <./fig/verifyApacheBrowser.png (
-PNG copy)> <./fig/chooseApachePhpMyAdmin.png (PNG copy)>]
-<fig/formConfirmPasswordPhpMyAdmin.png, id=52, 256.70906pt x 130.98938pt>
-File: fig/formConfirmPasswordPhpMyAdmin.png Graphic file (type png)
+(babel)             in language  on input line 228.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 235.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 235.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 235.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 235.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 235.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 235.
 
-<use fig/formConfirmPasswordPhpMyAdmin.png>
-Package pdftex.def Info: fig/formConfirmPasswordPhpMyAdmin.png used on input li
-ne 115.
-(pdftex.def)             Requested size: 128.3542pt x 65.49452pt.
+<fig/linkCreateCategory.png, id=127, 191.9672pt x 122.70844pt>
+File: fig/linkCreateCategory.png Graphic file (type png)
 
-<fig/verifyPhpMyAdminBrowser.png, id=53, 347.79938pt x 364.36125pt>
-File: fig/verifyPhpMyAdminBrowser.png Graphic file (type png)
+<use fig/linkCreateCategory.png>
+Package pdftex.def Info: fig/linkCreateCategory.png used on input line 243.
+(pdftex.def)             Requested size: 95.98335pt x 61.35406pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 254.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 254.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 254.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 254.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 254.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 254.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 254.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 254.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 254.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 254.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 254.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 254.
+ [7 <./fig/linkUpdateProfileSelf.jpg> <./fig/addRolCoordinator.png (PNG copy)> 
+<./fig/removeRolCoordinator.png (PNG copy)>]
+<fig/formCategoryFather.png, id=136, 459.21562pt x 266.49562pt>
+File: fig/formCategoryFather.png Graphic file (type png)
 
-<use fig/verifyPhpMyAdminBrowser.png>
-Package pdftex.def Info: fig/verifyPhpMyAdminBrowser.png used on input line 127
+<use fig/formCategoryFather.png>
+Package pdftex.def Info: fig/formCategoryFather.png used on input line 259.
+(pdftex.def)             Requested size: 229.60724pt x 133.24748pt.
+
+<fig/formCategoryChild.png, id=137, 661.72218pt x 471.26062pt>
+File: fig/formCategoryChild.png Graphic file (type png)
+
+<use fig/formCategoryChild.png>
+Package pdftex.def Info: fig/formCategoryChild.png used on input line 272.
+(pdftex.def)             Requested size: 330.86028pt x 235.62973pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 277.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 277.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 277.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 277.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 277.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 277.
+
+<fig/linkUpdateCategory.png, id=139, 186.6975pt x 121.95563pt>
+File: fig/linkUpdateCategory.png Graphic file (type png)
+
+<use fig/linkUpdateCategory.png>
+Package pdftex.def Info: fig/linkUpdateCategory.png used on input line 285.
+(pdftex.def)             Requested size: 93.34851pt x 60.97765pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 286.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 286.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 286.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 286.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 286.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 286.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 286.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 286.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 286.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 286.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 286.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 286.
+ [8 <./fig/linkCreateCategory.png (PNG copy)> <./fig/formCategoryFather.png (PN
+G copy)> <./fig/formCategoryChild.png>]
+<fig/linkUpdateCategoryFather.png, id=149, 736.25063pt x 129.48375pt>
+File: fig/linkUpdateCategoryFather.png Graphic file (type png)
+
+<use fig/linkUpdateCategoryFather.png>
+Package pdftex.def Info: fig/linkUpdateCategoryFather.png used on input line 29
+9.
+(pdftex.def)             Requested size: 368.1244pt x 64.7417pt.
+
+<fig/formUpdateCategoryFather.png, id=150, 515.67656pt x 269.50688pt>
+File: fig/formUpdateCategoryFather.png Graphic file (type png)
+
+<use fig/formUpdateCategoryFather.png>
+Package pdftex.def Info: fig/formUpdateCategoryFather.png used on input line 31
+0.
+(pdftex.def)             Requested size: 257.83765pt x 134.7531pt.
+
+<fig/linkUpdateCategoryChild.png, id=151, 731.73375pt x 124.96687pt>
+File: fig/linkUpdateCategoryChild.png Graphic file (type png)
+
+<use fig/linkUpdateCategoryChild.png>
+Package pdftex.def Info: fig/linkUpdateCategoryChild.png used on input line 323
 .
-(pdftex.def)             Requested size: 173.89926pt x 182.18018pt.
+(pdftex.def)             Requested size: 365.86598pt x 62.48328pt.
+
+<fig/formUpdateCategoryChild.png, id=152, 693.34032pt x 482.55281pt>
+File: fig/formUpdateCategoryChild.png Graphic file (type png)
+
+<use fig/formUpdateCategoryChild.png>
+Package pdftex.def Info: fig/formUpdateCategoryChild.png used on input line 336
+.
+(pdftex.def)             Requested size: 346.66931pt x 241.2758pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 339.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 339.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 339.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 339.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 339.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 339.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 347.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 347.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 347.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 347.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 347.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 347.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 347.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 347.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 347.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 347.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 347.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 347.
+ [9 <./fig/linkUpdateCategory.png (PNG copy)> <./fig/linkUpdateCategoryFather.p
+ng (PNG copy)> <./fig/formUpdateCategoryFather.png (PNG copy)> <./fig/linkUpdat
+eCategoryChild.png (PNG copy)>]
+<fig/linkDeleteCategoryChild.png, id=161, 747.54282pt x 182.93344pt>
+File: fig/linkDeleteCategoryChild.png Graphic file (type png)
+
+<use fig/linkDeleteCategoryChild.png>
+Package pdftex.def Info: fig/linkDeleteCategoryChild.png used on input line 356
+.
+(pdftex.def)             Requested size: 373.7705pt x 91.46649pt.
+
+<fig/linkDeleteCategoryFather.png, id=162, 742.27313pt x 149.8097pt>
+File: fig/linkDeleteCategoryFather.png Graphic file (type png)
+
+<use fig/linkDeleteCategoryFather.png>
+Package pdftex.def Info: fig/linkDeleteCategoryFather.png used on input line 36
+8.
+(pdftex.def)             Requested size: 371.13567pt x 74.90465pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 373.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 373.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 373.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 373.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 373.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 373.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 375.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 375.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 375.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 375.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 375.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 375.
+
+<fig/addRolTutor.png, id=164, 431.36156pt x 201.00093pt>
+File: fig/addRolTutor.png Graphic file (type png)
+
+<use fig/addRolTutor.png>
+Package pdftex.def Info: fig/addRolTutor.png used on input line 385.
+(pdftex.def)             Requested size: 215.68025pt x 100.50021pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 386.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 386.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 386.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 386.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 386.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 386.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 386.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 386.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 386.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 386.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 386.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 386.
+ [10 <./fig/formUpdateCategoryChild.png (PNG copy)> <./fig/linkDeleteCategoryCh
+ild.png (PNG copy)> <./fig/linkDeleteCategoryFather.png (PNG copy)>]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 388.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 388.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 388.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 388.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 388.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 388.
+ <fig/removeRolTutor.png, id=173, 188.20313pt x 119.69719pt>
+File: fig/removeRolTutor.png Graphic file (type png)
+
+<use fig/removeRolTutor.png>
+Package pdftex.def Info: fig/removeRolTutor.png used on input line 398.
+(pdftex.def)             Requested size: 112.92273pt x 71.81885pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 401.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 401.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 401.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 401.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 401.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 401.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 406.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 406.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 406.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 406.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 406.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 406.
+
+<fig/linkCreateContent.png, id=175, 168.63pt x 107.65219pt>
+File: fig/linkCreateContent.png Graphic file (type png)
+
+<use fig/linkCreateContent.png>
+Package pdftex.def Info: fig/linkCreateContent.png used on input line 412.
+(pdftex.def)             Requested size: 84.31479pt x 53.82596pt.
+
+<fig/formCreateContent.png, id=176, 652.68843pt x 480.29437pt>
+File: fig/formCreateContent.png Graphic file (type png)
+
+<use fig/formCreateContent.png>
+Package pdftex.def Info: fig/formCreateContent.png used on input line 423.
+(pdftex.def)             Requested size: 326.34341pt x 240.14659pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 426.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 426.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 426.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 426.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 426.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 426.
+
+<fig/linkAvailableContent.png, id=177, 807.7678pt x 112.16907pt>
+File: fig/linkAvailableContent.png Graphic file (type png)
+
+<use fig/linkAvailableContent.png>
+Package pdftex.def Info: fig/linkAvailableContent.png used on input line 435.
+(pdftex.def)             Requested size: 403.8829pt x 56.08438pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 437.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 437.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 437.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 437.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 437.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 437.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 437.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 437.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 437.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 437.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 437.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 437.
+ [11 <./fig/addRolTutor.png (PNG copy)> <./fig/removeRolTutor.png (PNG copy)> <
+./fig/linkCreateContent.png (PNG copy)>]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 438.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 438.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 438.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 438.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 438.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 438.
+
+<fig/linkUpdateContent.png, id=185, 173.89969pt x 106.14656pt>
+File: fig/linkUpdateContent.png Graphic file (type png)
+
+<use fig/linkUpdateContent.png>
+Package pdftex.def Info: fig/linkUpdateContent.png used on input line 446.
+(pdftex.def)             Requested size: 86.94962pt x 53.07315pt.
+
+<fig/linkUpdateChooseContent.png, id=186, 816.04875pt x 112.92188pt>
+File: fig/linkUpdateChooseContent.png Graphic file (type png)
+
+<use fig/linkUpdateChooseContent.png>
+Package pdftex.def Info: fig/linkUpdateChooseContent.png used on input line 456
+.
+(pdftex.def)             Requested size: 408.02338pt x 56.46078pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 462.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 462.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 462.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 462.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 462.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 462.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 462.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 462.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 462.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 462.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 462.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 462.
+ [12 <./fig/formCreateContent.png (PNG copy)> <./fig/linkAvailableContent.png (
+PNG copy)> <./fig/linkUpdateContent.png (PNG copy)> <./fig/linkUpdateChooseCont
+ent.png (PNG copy)>]
+<fig/formUpdateContent.png, id=195, 686.565pt x 449.42906pt>
+File: fig/formUpdateContent.png Graphic file (type png)
+
+<use fig/formUpdateContent.png>
+Package pdftex.def Info: fig/formUpdateContent.png used on input line 467.
+(pdftex.def)             Requested size: 343.28166pt x 224.71397pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 470.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 470.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 470.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 470.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 470.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 470.
+
+<fig/linkDeleteContent.png, id=196, 810.77907pt x 113.67468pt>
+File: fig/linkDeleteContent.png Graphic file (type png)
+
+<use fig/linkDeleteContent.png>
+Package pdftex.def Info: fig/linkDeleteContent.png used on input line 479.
+(pdftex.def)             Requested size: 405.38855pt x 56.83719pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 482.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 482.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 482.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 482.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 482.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 482.
+
+<fig/linkMainPage.png, id=199, 311.66437pt x 45.16875pt>
+File: fig/linkMainPage.png Graphic file (type png)
+
+<use fig/linkMainPage.png>
+Package pdftex.def Info: fig/linkMainPage.png used on input line 496.
+(pdftex.def)             Requested size: 155.8318pt x 22.5843pt.
+
+<fig/linkCategoryMainPage.png, id=200, 486.31688pt x 90.3375pt>
+File: fig/linkCategoryMainPage.png Graphic file (type png)
+
+<use fig/linkCategoryMainPage.png>
+Package pdftex.def Info: fig/linkCategoryMainPage.png used on input line 507.
+(pdftex.def)             Requested size: 243.15784pt x 45.16862pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 510.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 510.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 510.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 510.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 510.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 510.
+
+<fig/linkDashboard.png, id=201, 453.19313pt x 51.19125pt>
+File: fig/linkDashboard.png Graphic file (type png)
+
+<use fig/linkDashboard.png>
+Package pdftex.def Info: fig/linkDashboard.png used on input line 519.
+(pdftex.def)             Requested size: 226.59601pt x 25.59555pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 520.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 520.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 520.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 520.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 520.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 520.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 520.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 520.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 520.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 520.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 520.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 520.
+ [13 <./fig/formUpdateContent.png (PNG copy)> <./fig/linkDeleteContent.png (PNG
+ copy)> <./fig/linkMainPage.png (PNG copy)>]
+<fig/linkManageSubscription.png, id=210, 164.86594pt x 77.53969pt>
+File: fig/linkManageSubscription.png Graphic file (type png)
+
+<use fig/linkManageSubscription.png>
+Package pdftex.def Info: fig/linkManageSubscription.png used on input line 529.
+
+(pdftex.def)             Requested size: 82.43275pt x 38.76973pt.
+
+<fig/buttonAddSubscription.png, id=211, 526.96875pt x 226.59656pt>
+File: fig/buttonAddSubscription.png Graphic file (type png)
+
+<use fig/buttonAddSubscription.png>
+Package pdftex.def Info: fig/buttonAddSubscription.png used on input line 545.
+(pdftex.def)             Requested size: 263.48372pt x 113.29799pt.
+
+<fig/viewManageAvailableSubscription.png, id=213, 810.02625pt x 101.62968pt>
+File: fig/viewManageAvailableSubscription.png Graphic file (type png)
+
+<use fig/viewManageAvailableSubscription.png>
+Package pdftex.def Info: fig/viewManageAvailableSubscription.png used on input 
+line 555.
+(pdftex.def)             Requested size: 405.01213pt x 50.81471pt.
+
+<fig/buttonDeleteSubscription.png, id=214, 542.025pt x 183.68625pt>
+File: fig/buttonDeleteSubscription.png Graphic file (type png)
+
+<use fig/buttonDeleteSubscription.png>
+Package pdftex.def Info: fig/buttonDeleteSubscription.png used on input line 56
+8.
+(pdftex.def)             Requested size: 271.01183pt x 91.84288pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 574.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 574.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 574.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 574.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 574.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 574.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 574.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 574.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 574.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 574.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 574.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 574.
+ [14 <./fig/linkCategoryMainPage.png (PNG copy)> <./fig/linkDashboard.png (PNG 
+copy)> <./fig/linkManageSubscription.png (PNG copy)> <./fig/buttonAddSubscripti
+on.png (PNG copy)> <./fig/viewManageAvailableSubscription.png (PNG copy)>]
+<fig/viewManageUnavailableSubscription.png, id=225, 810.77907pt x 117.43875pt>
+File: fig/viewManageUnavailableSubscription.png Graphic file (type png)
+
+<use fig/viewManageUnavailableSubscription.png>
+Package pdftex.def Info: fig/viewManageUnavailableSubscription.png used on inpu
+t line 579.
+(pdftex.def)             Requested size: 405.38855pt x 58.71922pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 584.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 584.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 584.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 584.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 584.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 584.
+File: fig/linkUpdateContent.png Graphic file (type png)
+
+<use fig/linkUpdateContent.png>
+Package pdftex.def Info: fig/linkUpdateContent.png used on input line 596.
+(pdftex.def)             Requested size: 86.94962pt x 53.07315pt.
+
+<fig/linkCreateTranslation.png, id=227, 783.67781pt x 169.38281pt>
+File: fig/linkCreateTranslation.png Graphic file (type png)
+
+<use fig/linkCreateTranslation.png>
+Package pdftex.def Info: fig/linkCreateTranslation.png used on input line 608.
+(pdftex.def)             Requested size: 391.83794pt x 84.6912pt.
+
+<fig/formCreateGlossary.png, id=228, 451.6875pt x 303.38344pt>
+File: fig/formCreateGlossary.png Graphic file (type png)
+
+<use fig/formCreateGlossary.png>
+Package pdftex.def Info: fig/formCreateGlossary.png used on input line 623.
+(pdftex.def)             Requested size: 225.84319pt x 151.69135pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 631.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 631.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 631.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 631.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 631.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 631.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 631.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 631.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 631.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 631.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 631.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 631.
+ [15 <./fig/buttonDeleteSubscription.png (PNG copy)> <./fig/viewManageUnavailab
+leSubscription.png (PNG copy)> <./fig/linkCreateTranslation.png (PNG copy)>]
+<fig/formCreateLyric.png, id=237, 569.12625pt x 368.1253pt>
+File: fig/formCreateLyric.png Graphic file (type png)
+
+<use fig/formCreateLyric.png>
+Package pdftex.def Info: fig/formCreateLyric.png used on input line 640.
+(pdftex.def)             Requested size: 284.56242pt x 184.0622pt.
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
 Package babel Info: Redefining spanish shorthand <<
@@ -1080,8 +1892,8 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 166.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 166.
- [5 <./fig/formPasswordPhpMyAdmin.png (PNG copy)> <./fig/formConfirmPasswordPhp
-MyAdmin.png (PNG copy)> <./fig/verifyPhpMyAdminBrowser.png (PNG copy)>]
+ [16 <./fig/formCreateGlossary.png (PNG copy)> <./fig/formCreateLyric.png (PNG 
+copy)>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
  (./Manual.aux
 LaTeX Info: Redefining \. on input line 25.
@@ -1091,21 +1903,20 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 166.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 166.
  ) 
 Here is how much of TeX's memory you used:
- 12609 strings out of 495002
- 183347 string characters out of 6181282
- 619840 words of memory out of 5000000
- 15616 multiletter control sequences out of 15000+600000
- 37324 words of font info for 47 fonts, out of 8000000 for 9000
+ 12795 strings out of 495002
+ 188965 string characters out of 6181282
+ 618810 words of memory out of 5000000
+ 15697 multiletter control sequences out of 15000+600000
+ 43104 words of font info for 51 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 53i,8n,93p,1018b,779s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,8n,92p,1018b,472s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf
--dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/urw/helvetic/uhvr8a.pfb>
-Output written on Manual.pdf (5 pages, 171681 bytes).
+e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on Manual.pdf (16 pages, 1125142 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
- 26 named destinations out of 1000 (max. 500000)
- 79 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 355 PDF objects out of 1000 (max. 8388607)
+ 285 compressed objects within 3 object streams
+ 93 named destinations out of 1000 (max. 500000)
+ 439 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -23,30 +23,42 @@ persistencia definida una base de datos en MySQL.
 
 \section{Instalación}
 
-Acerca de, la instalación de utilitarios (git), servidor web, servidor de bases de
+Acerca de, la instalación de utilitarios, servidor web, servidor de bases de
 datos.
 
 Ahora se describe el proceso de instalación, por el mismo se pide disponer
 de una conexión a Internet; de igual manera, la cuenta de super usuario 
-\textquotedouble{root}.
+\textquotedouble{root}. Utilizar la ruta de instalación 
+\textquotedouble{/media/TrabajoDeGrado/Instaladores/Otros Instaladores} 
 
 \begin{itemize}
 
 \item MySQLServer v14.14
-\item Apache2 v2.4.18
-\item PhpMyAdmin v
+\item Apache2 v2.4.23
 \item PHP v7.0
-\item GIT v
 \end{itemize}
 
 \subsection{MySQL server} \label{ssec:mysqlServer}
 
-Abrir una terminal y ejecutar las sentencias.
+Abrir una terminal, de forma de proseguir en la instalación del servidor de
+base de datos. Para el mismo se requiere tener el \textquotedouble{pront} en la
+ruta donde se encuentra de instaladores.
 
-\begin{lstlisting}[language=bash, caption={Comando para instalación de gestor de base de datos}]
-# apt-get update
-# apt-get install mysql-server 
+\begin{lstlisting}[language=bash, caption={Comando para descomprimir archivos}]
+$ tar -xvf mysql-server_5.7.15-1ubuntu16.04_amd64.deb-bundle.tar 
 \end{lstlisting}
+
+
+\begin{lstlisting}[language=bash, caption={Comando para instalar librería}]
+# dpkg -i mysql-common_5.7.15-1ubuntu16.04_amd64.deb 
+\end{lstlisting}
+
+Ademas, comando de configuración de \textquotedouble{mysql server}.
+
+\begin{lstlisting}[language=bash, caption={Comando para configurar servidor de base de datos}]
+# dpkg-preconfigure mysql-community-server_5.7.15-1ubuntu16.04_amd64.deb
+\end{lstlisting}
+
 
 Así mismo, ingresar la contraseña del usuario privilegiado denominado 
 \textquotedouble{super usuario}. Se utilizara la contraseña 
@@ -55,16 +67,137 @@ Así mismo, ingresar la contraseña del usuario privilegiado denominado
 \begin{figure}[!ht]
 \centering
 	\fbox{
-		\includegraphics[scale=0.5]{passwordMySQLServer}
+		\includegraphics[scale=0.5]{formPasswordMySQLCommunityServer}
 	}	\caption{Formulario de registro de contraseña para super usuario}
 \end{figure}
 
+
+\begin{figure}[!ht]
+\centering
+	\fbox{
+		\includegraphics[scale=0.5]{formConfirmPasswordMySQLCommunityServer}
+	}	\caption{Formulario de registro de contraseña para super usuario}
+\end{figure}
+
+A continuación, se instalar la librería dependencia del sistema operativo.
+
+\begin{lstlisting}[language=bash, caption={Comando para instalar librería}]
+# dpkg -i libaio1_0.3.110-2_amd64.deb 
+\end{lstlisting}
+
+
+Dicho lo anterior se ejecuta el comando, el cual integra la instalación de forma resumida.
+
+\begin{lstlisting}[language=bash, caption={Comando resumido de instalación de servidor de base de datos}]
+# dpkg -i mysql-community-server_5.7.15-1ubuntu16.04_amd64.deb libmecab2_0996-1.2ubuntu1_amd64.deb
+\end{lstlisting}
+
+
+\begin{lstlisting}[language=bash, caption={Comando resumido de instalación de servidor de base de datos}]
+# dpkg -i mysql-community-client_5.7.15-1ubuntu16.04_amd64.deb 
+\end{lstlisting}
+
+
+\begin{lstlisting}[language=bash, caption={Comando resumido de instalación de servidor de base de datos}]
+# dpkg -i libmysqlclient20_5.7.15-1ubuntu16.04_amd64.deb
+\end{lstlisting}
+
 \subsection{Apache2}
 
-Acerca de, la instalacion de un servidor web para mostrar la aplicación web.
+Si tu no tienes obtienes \textquotedouble{build-essential} paquete, instalar.
 
-\begin{lstlisting}[language=bash, caption={Comando para instalación de servidor web}]
-# apt-get install apache2 
+\begin{lstlisting}[language=bash, caption={}]
+# apt-get update
+# apt-get install build-essential
+\end{lstlisting}
+
+Zlib una libreria para comprimir metodos cual metodo es encontrado en gzip.
+
+\begin{lstlisting}[language=bash, caption={}]
+# cd /usr/local/src
+# tar xvfz zlib-1.2.8.tar.gz
+# cd zlib-1.2.8/
+# ./configure --prefix=/usr/local
+# make
+# make install
+\end{lstlisting}
+
+Actualmente tu necesitas installar aprutils, por lo tanto realiza el siguiente comando.
+
+\begin{lstlisting}[language=bash, caption={}]
+# cd /usr/local/src
+# tar xvf apr-1.5.2.tar.gz
+# cd apr-1.5.2
+# ./configure
+# make
+# make install
+\end{lstlisting}
+
+
+\begin{lstlisting}[language=bash, caption={}]
+# cd /usr/local/src
+# tar xvf apr-util-1.5.4.tar.gz
+# cd apr-util-1.5.4
+# ./configure --with-apr=/usr/local/src/apr-1.5.2
+# make
+# make install
+\end{lstlisting}
+
+\begin{lstlisting}[language=bash, caption={}]
+# apt-get update
+# apt-get install libpcre3-dev
+\end{lstlisting}
+
+\begin{lstlisting}[language=bash, caption={}]
+# cd /usr/local/src
+# tar xvf http-2-4.23.tar.gz
+# cd http-2.4.23
+# ./configure --prefix=/usr/local/apache --enable-so 
+# make
+# make install
+\end{lstlisting}
+
+\begin{lstlisting}[language=bash, caption={}]
+# cp /usr/local/apache/bin/apachectl /etc/init.d/apachectl
+# chmod +x /etc/init.d/apachectl
+\end{lstlisting}
+
+actualizar-rc
+
+\begin{lstlisting}[language=bash, caption={}]
+# /usr/sbin/update-rc.d -f apachectl defaults
+\end{lstlisting}
+
+Seguridad apache
+
+\begin{lstlisting}[language=bash, caption={}]
+# adduser --system apache
+\end{lstlisting}
+
+ahora, nosotros necesitamos hacer seguro apache ejecute este usuario.
+
+\begin{lstlisting}[language=bash, caption={}]
+# nano /usr/local/apache/conf/httpd.conf
+\end{lstlisting}
+
+tu necesitas find estas lineas:
+
+\begin{lstlisting}[language=bash, caption={}]
+User daemon
+Group daemon
+\end{lstlisting}
+
+y ahora cambiar por lo siguiente.
+
+\begin{lstlisting}[language=bash, caption={}]
+User apache
+Group nogroup
+\end{lstlisting}
+
+guardar el archivo, restaurar el servicio.
+
+\begin{lstlisting}[language=bash, caption={}]
+# /usr/local/apache/bin/apachectl start
 \end{lstlisting}
 
 como se afirmo arriba, se procede a realizar la verificación de la instalación
@@ -77,6 +210,36 @@ por uso de un navegador web, para luego escribir \textquotedouble{http://localho
 	}	\caption{Verificación ejecución página por defecto de apache}
 \end{figure}
 
+
+\subsection{PHP}
+
+Instalar dependencia.
+
+
+\begin{lstlisting}[language=bash, caption={Comando para instalación de lenguaje en el lado del servidor}]
+# cd /usr/local/src/
+# tar xvf php-7.0.12.tar.gz
+# cd php-7.0.12
+# ./configure 
+\end{lstlisting}
+
+Por lo que se refiere a, lenguaje lado del servidor.
+
+\begin{lstlisting}[language=bash, caption={Comando para instalación de lenguaje en el lado del servidor}]
+# apt-get update
+# apt-get install php
+\end{lstlisting}
+
+Con respecto al primer punto, en el proceso de instalación pide la selección
+de un servidor web, presionar la tecla \textquotedouble{Tab} y pinchar sobre
+el botón \textquotedouble{Ok}.
+
+\begin{figure}[!ht]
+\centering
+	\fbox{
+		\includegraphics[scale=0.5]{chooseApachePhpMyAdmin}
+	}	\caption{Formulario de selección de tipo de servidor web}
+\end{figure}
 
 \subsection{PhpMyAdmin}
 
@@ -129,21 +292,39 @@ navegador web y escribir en la dirección URL
 	}	\caption{Verificación ejecución página por defecto de apache}
 \end{figure}
 
-\subsection{PHP}
+\subsection{Configuración}
 
-Por lo que se refiere a, lenguaje lado del servidor.
+A continuación, se define la ruta a utilizar para el proceso de instalación de
+la aplicación \textquotedouble{/media/TrabajoDeGrado/Fuentes}
 
-\begin{lstlisting}[language=bash, caption={Comando para instalación de lenguaje en el lado del servidor}]
-# apt-get install php 
+\subsection{Plataforma educativa LAEL}
+
+\begin{itemize}
+
+\item \textbf{Aplicación web}
+
+Para poder hacer acceso de la aplicación se utilizara la ruta 
+\textquotedouble{/media/TrabajoDeGrado/Fuentes/Código}
+
+A continuación, realizar con la instalación de la aplicación.
+
+\begin{lstlisting}[language=bash, caption={}]
+# cp /media/TrabajoDeGrado/Fuentes/plafromaeducativalael.zip /usr/local/apache/htdocs/
+# cd /usr/local/apache/htdocs/
+# unzip plataformaeducativalael.zip
+# cd plataformaeducativalael
+# mkdir assets
 \end{lstlisting}
 
-Con respecto al primer punto, en el proceso de instalación pide la selección
-de un servidor web, presionar la tecla \textquotedouble{Tab} y pinchar sobre
-el botón \textquotedouble{Ok}.
+\item \textbf{Base de datos}
 
-\begin{figure}[!ht]
-\centering
-	\fbox{
-		\includegraphics[scale=0.5]{chooseApachePhpMyAdmin}
-	}	\caption{Formulario de selección de tipo de servidor web}
-\end{figure}
+Para poder hacer acceso de la aplicación se utilizara la ruta 
+\textquotedouble{/media/TrabajoDeGrado/Fuentes/Bd}
+
+\begin{lstlisting}[language=bash, caption={}]
+# cp /media/TrabajoDeGrado/Bd/Bdplafromaeducativalael.zip /home/ubuntu
+# unzip Bdplataformaeducativalael.zip
+\end{lstlisting}
+
+
+\end{itemize}
