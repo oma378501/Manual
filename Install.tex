@@ -41,15 +41,16 @@ de una conexión a Internet; de igual manera, la cuenta de super usuario
 \subsection{MySQL server} \label{ssec:mysqlServer}
 
 Abrir una terminal, de forma de proseguir en la instalación del servidor de
-base de datos. Para el mismo se requiere tener el \textquotedouble{pront} en la
-ruta donde se encuentra de instaladores.
+base de datos. Para el mismo se requiere tener el \textquotedouble{pront} en
+la ruta donde se encuentra de el software.
 
 \begin{lstlisting}[language=bash, caption={Comando para descomprimir archivos}]
 $ tar -xvf mysql-server_5.7.15-1ubuntu16.04_amd64.deb-bundle.tar 
 \end{lstlisting}
 
+A continuacion, realizar la instalación de un paquete previo.
 
-\begin{lstlisting}[language=bash, caption={Comando para instalar librería}]
+\begin{lstlisting}[language=bash, caption={Instalación de dependencia servidor de base de datos}]
 # dpkg -i mysql-common_5.7.15-1ubuntu16.04_amd64.deb 
 \end{lstlisting}
 
@@ -58,7 +59,6 @@ Ademas, comando de configuración de \textquotedouble{mysql server}.
 \begin{lstlisting}[language=bash, caption={Comando para configurar servidor de base de datos}]
 # dpkg-preconfigure mysql-community-server_5.7.15-1ubuntu16.04_amd64.deb
 \end{lstlisting}
-
 
 Así mismo, ingresar la contraseña del usuario privilegiado denominado 
 \textquotedouble{super usuario}. Se utilizara la contraseña 
@@ -71,6 +71,8 @@ Así mismo, ingresar la contraseña del usuario privilegiado denominado
 	}	\caption{Formulario de registro de contraseña para super usuario}
 \end{figure}
 
+De igual forma, volver a ingresar la anterior contraseña y presionar el botón 
+\textquotedouble{Ok}.
 
 \begin{figure}[!ht]
 \centering
@@ -85,20 +87,23 @@ A continuación, se instalar la librería dependencia del sistema operativo.
 # dpkg -i libaio1_0.3.110-2_amd64.deb 
 \end{lstlisting}
 
-
-Dicho lo anterior se ejecuta el comando, el cual integra la instalación de forma resumida.
+Dicho lo anterior se ejecuta el comando, el cual integra la instalación de
+forma resumida.
 
 \begin{lstlisting}[language=bash, caption={Comando resumido de instalación de servidor de base de datos}]
 # dpkg -i mysql-community-server_5.7.15-1ubuntu16.04_amd64.deb libmecab2_0996-1.2ubuntu1_amd64.deb
 \end{lstlisting}
 
+Igualmente, ejecutar el comando de instalacion de un cliente para el servidor
+de base de datos.
 
-\begin{lstlisting}[language=bash, caption={Comando resumido de instalación de servidor de base de datos}]
+\begin{lstlisting}[language=bash, caption={Comando de instalación de un cliente para el servidor}]
 # dpkg -i mysql-community-client_5.7.15-1ubuntu16.04_amd64.deb 
 \end{lstlisting}
 
+Finalmente, ejecutar el comando de instalación de un cliente.
 
-\begin{lstlisting}[language=bash, caption={Comando resumido de instalación de servidor de base de datos}]
+\begin{lstlisting}[language=bash, caption={Comando de instalacion de un cliente para el servidor}]
 # dpkg -i libmysqlclient20_5.7.15-1ubuntu16.04_amd64.deb
 \end{lstlisting}
 
@@ -106,14 +111,14 @@ Dicho lo anterior se ejecuta el comando, el cual integra la instalación de form
 
 Si tu no tienes obtienes \textquotedouble{build-essential} paquete, instalar.
 
-\begin{lstlisting}[language=bash, caption={}]
+\begin{lstlisting}[language=bash, caption={Comandos para instalación de paquetes de compilación}]
 # apt-get update
 # apt-get install build-essential
 \end{lstlisting}
 
-Zlib una libreria para comprimir metodos cual metodo es encontrado en gzip.
+Zlib una librería para comprimir métodos el cual se encontrado en gzip.
 
-\begin{lstlisting}[language=bash, caption={}]
+\begin{lstlisting}[language=bash, caption={Instalación dependencias para servidor web}]
 # cd /usr/local/src
 # tar xvfz zlib-1.2.8.tar.gz
 # cd zlib-1.2.8/
@@ -122,9 +127,10 @@ Zlib una libreria para comprimir metodos cual metodo es encontrado en gzip.
 # make install
 \end{lstlisting}
 
-Actualmente tu necesitas installar aprutils, por lo tanto realiza el siguiente comando.
+Actualmente se necesita instalar apr, por lo tanto realiza el siguiente
+comando.
 
-\begin{lstlisting}[language=bash, caption={}]
+\begin{lstlisting}[language=bash, caption={Instalacion dependencias para servidor web}]
 # cd /usr/local/src
 # tar xvf apr-1.5.2.tar.gz
 # cd apr-1.5.2
@@ -133,8 +139,10 @@ Actualmente tu necesitas installar aprutils, por lo tanto realiza el siguiente c
 # make install
 \end{lstlisting}
 
+Igualmente, utilizar la instalación de dependencia apr-util, utilitario del
+servidor web.
 
-\begin{lstlisting}[language=bash, caption={}]
+\begin{lstlisting}[language=bash, caption={Instalación dependencias utilitarios para servidor web}]
 # cd /usr/local/src
 # tar xvf apr-util-1.5.4.tar.gz
 # cd apr-util-1.5.4
@@ -143,12 +151,17 @@ Actualmente tu necesitas installar aprutils, por lo tanto realiza el siguiente c
 # make install
 \end{lstlisting}
 
-\begin{lstlisting}[language=bash, caption={}]
+A continuación, se muestra como se debe instalar otra dependencia del servidor
+web.
+
+\begin{lstlisting}[language=bash, caption={Instalación de otra dependencia del servidor web}]
 # apt-get update
 # apt-get install libpcre3-dev
 \end{lstlisting}
 
-\begin{lstlisting}[language=bash, caption={}]
+Por lo tanto, utilizar los comandos para realizar la instalación del servidor web.
+
+\begin{lstlisting}[language=bash, caption={Instalación de un servidor web}]
 # cd /usr/local/src
 # tar xvf http-2-4.23.tar.gz
 # cd http-2.4.23
@@ -157,12 +170,14 @@ Actualmente tu necesitas installar aprutils, por lo tanto realiza el siguiente c
 # make install
 \end{lstlisting}
 
-\begin{lstlisting}[language=bash, caption={}]
+Realizar una copia y brindar permisos de ejecución.
+
+\begin{lstlisting}[language=bash, caption={Comandos para agregar como demonio}]
 # cp /usr/local/apache/bin/apachectl /etc/init.d/apachectl
 # chmod +x /etc/init.d/apachectl
 \end{lstlisting}
 
-actualizar-rc
+\textbf{actualizar-rc}
 
 \begin{lstlisting}[language=bash, caption={}]
 # /usr/sbin/update-rc.d -f apachectl defaults
@@ -213,84 +228,14 @@ por uso de un navegador web, para luego escribir \textquotedouble{http://localho
 
 \subsection{PHP}
 
-Instalar dependencia.
-
-
-\begin{lstlisting}[language=bash, caption={Comando para instalación de lenguaje en el lado del servidor}]
-# cd /usr/local/src/
-# tar xvf php-7.0.12.tar.gz
-# cd php-7.0.12
-# ./configure 
-\end{lstlisting}
-
 Por lo que se refiere a, lenguaje lado del servidor.
 
 \begin{lstlisting}[language=bash, caption={Comando para instalación de lenguaje en el lado del servidor}]
 # apt-get update
-# apt-get install php
+# apt-get install php7.0-mysql php7.0-curl php7.0-curl php7.0-cgi php7.0 libapache2-mod-php7
+# /usr/local/apache/bin/apachectl stop
+# /usr/local/apache/bin/apachectl start
 \end{lstlisting}
-
-Con respecto al primer punto, en el proceso de instalación pide la selección
-de un servidor web, presionar la tecla \textquotedouble{Tab} y pinchar sobre
-el botón \textquotedouble{Ok}.
-
-\begin{figure}[!ht]
-\centering
-	\fbox{
-		\includegraphics[scale=0.5]{chooseApachePhpMyAdmin}
-	}	\caption{Formulario de selección de tipo de servidor web}
-\end{figure}
-
-\subsection{PhpMyAdmin}
-
-En cuanto a, cliente para el servidor de base de datos, realizar la ejecución
-del comando.
-
-\begin{lstlisting}[language=bash, caption={Comando para instalación de cliente para base de datos}]
-# apt-get install phpmyadmin 
-\end{lstlisting}
-
-Con respecto al primer punto, en el proceso de instalación pide la selección
-de un servidor web, presionar la tecla \textquotedouble{Tab} y pinchar sobre
-el botón \textquotedouble{Ok}.
-
-\begin{figure}[!ht]
-\centering
-	\fbox{
-		\includegraphics[scale=0.5]{chooseApachePhpMyAdmin}
-	}	\caption{Formulario de selección de tipo de servidor web}
-\end{figure}
-
-Ahora bien, se tiene que escribir la misma contraseña definido en la sección
-\ref{ssec:mysqlServer} y pinchar sobre el botón \textquotedouble{Ok}.
-
-\begin{figure}[H]
-\centering
-	\fbox{
-		\includegraphics[scale=0.5]{formPasswordPhpMyAdmin}
-	}	\caption{Formulario de ingreso de contraseña para cliente de base de datos}
-\end{figure}
-
-Mas aun, escribir nuevamente la contraseña definida en el paso anterior.
-
-\begin{figure}[!ht]
-\centering
-	\fbox{
-		\includegraphics[scale=0.5]{formConfirmPasswordPhpMyAdmin}
-	}	\caption{Formulario de confirmación de contraseña para cliente de base de datos}
-\end{figure}
-
-En relación con el funcionamiento de el cliente de base de datos, se sugiere
-realizar la verificación de la instalación, por lo cual se tiene que abrir un
-navegador web y escribir en la dirección URL 
-\textquotedouble{http://localhost/phpmyadmin}.
-
-\begin{figure}[!ht]
-\centering
-	\fbox{
-		\includegraphics[scale=0.5]{verifyPhpMyAdminBrowser}
-	}	\caption{Verificación ejecución página por defecto de apache}
-\end{figure}
 
 \subsection{Configuración}
 
@@ -312,6 +257,7 @@ A continuación, realizar con la instalación de la aplicación.
 # cp /media/TrabajoDeGrado/Fuentes/plafromaeducativalael.zip /usr/local/apache/htdocs/
 # cd /usr/local/apache/htdocs/
 # unzip plataformaeducativalael.zip
+# chmod -R 7555 ./plataformaeducativalael
 # cd plataformaeducativalael
 # mkdir assets
 \end{lstlisting}
@@ -322,9 +268,12 @@ Para poder hacer acceso de la aplicación se utilizara la ruta
 \textquotedouble{/media/TrabajoDeGrado/Fuentes/Bd}
 
 \begin{lstlisting}[language=bash, caption={}]
-# cp /media/TrabajoDeGrado/Bd/Bdplafromaeducativalael.zip /home/ubuntu
-# unzip Bdplataformaeducativalael.zip
+# cp /media/TrabajoDeGrado/Bd/BDplafromaeducativalael.zip /home/ubuntu
+# cd /home/ubuntu
+# unzip BDplataformaeducativalael.zip
+# mysql --host=localhost --user=root
+> create database plataformaeducativalael;
+> exit;
+# mysql --host=localhost --user=root plataformaeducativalael < BDplataformaeducativalael.sql
 \end{lstlisting}
-
-
 \end{itemize}
